@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *Header with standard input
- * main - entry point
+ * main - Entry point
+ *
  * Return Always 0
  */
 int main(void)
