@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  *Header with standard input
- * next main entry point that returns 0
+ * main - entry point
+ * Return Always 0
  */
 int main(void)
 {
