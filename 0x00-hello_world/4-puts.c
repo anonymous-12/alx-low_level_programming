@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  *Header with standard input
  * next main entry point that returns 0
