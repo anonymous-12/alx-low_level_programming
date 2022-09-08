@@ -1,4 +1,4 @@
-#includes <stdio.h>
+#include <stdio.h>
 /**main entry point
 
  * return = 0 because of the int in main entry
