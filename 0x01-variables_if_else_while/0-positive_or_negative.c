@@ -6,7 +6,7 @@
 /**
  * main - Point of Entry
  *
- * Retrun: Is 0
+ * Retrun: Always 0
  *
  */
 int main(void)
