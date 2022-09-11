@@ -4,8 +4,7 @@
 
 #include <time.h>
 /**
- *
- * Main - Point of Entry
+ * main - Point of Entry
  *
  * Retrun: Is 0
  *
