@@ -4,15 +4,16 @@
  *
  * Return: Always 0
  */
+
 int main(void)
-{	
-	char alphabets;
+{
+	char lower;
 
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
-		putchar(alphabets);
+	for (lower = 'a'; lower <= 'z'; lower++)
+		putchar(lower);
 
-	for (alphabets = 'A'; alphabets <= 'Z'; alphabets++)
-		putchar(alphabets);
+	for (lower = 'A'; lower <= 'Z'; lower++)
+		putchar(letter);
 
 	putchar('\n');
 
