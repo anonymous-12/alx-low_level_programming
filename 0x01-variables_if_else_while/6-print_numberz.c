@@ -1,14 +1,13 @@
 #include <stdio.h>
 /**
  * main - prints all single digit numbers of base 10, starting from 0, followed
- * 	by a new line
+ * 	  by a new line
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int num = '0';
-	
+	int num = 0;
 	for (num = 0; num < 10; num++)
 	{
 		putchar(num);
