@@ -5,7 +5,6 @@
  *@num2 - second number to be added
  *Return: the sum of num1+ num2
  */
-int add(int, int);
 
 int add(int num1, int num2);
 {
