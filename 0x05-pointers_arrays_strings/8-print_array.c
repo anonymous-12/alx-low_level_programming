@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_arrays - prints elements of an array of ints
- * @a: pointer 
+ * print_array - prints elements of an array of ints
+ * @a: pointer
  *@n: number of times to print the array
  */
 
