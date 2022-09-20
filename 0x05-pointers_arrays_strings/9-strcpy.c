@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strcpy - copies a string including the string terminator
- * @src: The source 
+ * @src: The source
  * @dest: the destination
  * Return: the pointer
  */
