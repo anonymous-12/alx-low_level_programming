@@ -17,16 +17,18 @@ void rev_string(char *s)
 	while (s[i] != 0)
 	{
 		i++;
-											}
+	}
+
 	len_str = i;
 	i = 0;
 	j = len_str - 1;
-	while (i < j)
-											{
-												storage = s[i];
-												s[i] = s[j];
-												s[j] = storage;
 
-												i++;
-												j--;
+	while (i < j)
+	{
+		storage = s[i];
+		s[i] = s[j];
+		s[j] = storage;
+i		i++;
+		j--;
+	}
 }
