@@ -2,7 +2,7 @@
 /**
  * _strncat - concatenates a string and uses the n byte.
  * @dest: a string
- * @ src: a string 
+ * @src: a string
  * @n: a variable
  * Return: Concatenated string
  */
