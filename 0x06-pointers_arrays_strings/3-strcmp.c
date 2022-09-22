@@ -9,14 +9,14 @@ int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 
-	while (*a != '\0' && *b != '\0')
+	while (*s1 != '\0' && *s2 != '\0')
 	{
-		if (*a != *b)
+		if (*s1 != *s2)
 		{
 			i = 1;
 		}
-		a++;
-		b++;
+		s1++;
+		s2++;
 	}
 	return (0);
 	else
