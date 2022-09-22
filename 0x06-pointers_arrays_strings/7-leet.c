@@ -6,19 +6,20 @@ include "main.h"
  */
 char *leet(char *c)
 {
-	int i;
-	int j;
-	char letters[] = "aeotl";
-	char up_letters[] = "AEOTL";
-	char numbers[] = "43071";
+	int i, ii;
+	char s1[] = "aeotl";
+	char S1[] = "AEOTL";
+	char s2[] = "43071";
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-		for (j = 0; letters[j] != '\0'; j++)
+		for (ii = 0; ii < 5; ii++)
 		{
-			if (c[i] == letters[j] || c[i] == up_letters[j])
-				c[i] = numbers[j];
+			if (c[i] == s1[ii] || c[i] == S1[ii])
+			{
+				c[i] = s2[ii];
+				break;
+			}
 		}
 	}
 	return (c);
-}
