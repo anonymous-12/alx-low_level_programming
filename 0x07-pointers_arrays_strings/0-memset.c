@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * _memcpy - cpoies n characters from memory
  * dest - destination array
  * src - source of data to be copied
  * @n: number of bytes to be copied
