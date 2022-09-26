@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _memcpy - cpoies n characters from memory
- * dest - destination array
- * src - source of data to be copied
- * @n: number of bytes to be copied
- * Return: Returns apointer to dest
+ * *_memset - fills blocks of memory witha specific value 
+ * @b: constant byte
+ * @S: the pointer to the buffer
+ * @n: size of bytes to be filled
+ * Return: Returns a pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -12,8 +12,8 @@ char *_memset(char *s, char b, unsigned int n)
 
 	while (i < n)
 	{
-		dest[i] = src[i];
+		s[i] = b;
 		i++;
 	}
-	return (dest);
+	return (s);
 }
