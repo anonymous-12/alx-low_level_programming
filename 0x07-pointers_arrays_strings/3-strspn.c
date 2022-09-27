@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sprspn - Returns thelength of the initial substring of a string
+ * _strspn - Returns thelength of the initial substring of a string
  * @s: The string to be searched
  * @accept: Contains the character to be matched
  *
@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*s)
 	{
-		for (i = 0; accept[i];i++)
+		for (i = 0; accept[i]; i++)
 		{
 			if (*s == accept[i])
 			{
