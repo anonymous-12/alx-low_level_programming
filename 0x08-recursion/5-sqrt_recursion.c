@@ -19,10 +19,10 @@ int find_sqrt(int num, int root)
 }
 
 /**
-  3   * _sqrt_recursion - Returns the natural square root of a number
-  4   *@n: the number to find the squareroot of
-  5   *Return: -1 if the number doesnt have the natural square root
-  6   */
+ * _sqrt_recursion - Returns the natural square root of a number
+ *@n: the number to find the squareroot of
+ *Return: -1 if the number doesnt have the natural square root
+ */
 int _sqrt_recursion(int n)
 {
 	int root = 0;
