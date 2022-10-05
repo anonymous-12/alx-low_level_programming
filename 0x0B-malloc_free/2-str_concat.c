@@ -9,8 +9,6 @@
   */
 char *str_concat(char *s1, char *s2)
 {
-	char *str_concat(char *s1, char *s2)
-{
 	int size; /* Tamaño del string*/
 	int size2; /* Tamañano del segundo string */
 	int i, j; /* Iteradores de bucle */
