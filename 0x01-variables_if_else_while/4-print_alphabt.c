@@ -11,7 +11,7 @@ int main(void)
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{
 		if (lower != 'e' && lower != 'q')
-		       putchar(lower);
+			putchar(lower);
 	}
 	putchar('\n');
 	return (0);
