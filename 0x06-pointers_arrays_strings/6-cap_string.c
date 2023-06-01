@@ -29,7 +29,7 @@ char *cap_string(char *str)
 		str[count - 1] == '}' ||
 		count == 0)
 			str[count] -= 32;
-		
+
 		count++;
 	}
 	return (str);
