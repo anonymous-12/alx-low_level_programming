@@ -11,7 +11,7 @@ char *leet(char *str)
 
 	while (str[count])
 	{
-		for index = 0; index <= 7; index++)
+		for (index = 0; index <= 7; index++)
 		{
 			if (str[count] == leet[index] || str[count] - 32 == leet[index])
 				str[count] = index + '0';
